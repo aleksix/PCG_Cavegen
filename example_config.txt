@@ -1,0 +1,18 @@
+# Basic parameters: max number of miners, chance of miner spawning,
+#  number of cleaning passes, randomness seed
+miner_chance = 8
+max_miners = 400
+# > 3 generally has no effect
+cleanups = 3
+# Seed = 0 means random
+seed = 0
+
+# Cleanup options: shouldn't really touch
+cleanup_air_max = 2
+cleanup_stone_required = 4
+
+# Decoration options: number of waterfalls, depth of the pool below, intensity of grass growing
+# Max for all of them: 255
+waterfalls = 4
+pool_height = 100
+grass_intensity = 3
